@@ -2,7 +2,28 @@
 
 This directory contains the Jupyter Notebook implementation of a simple Recurrent Neural Network (RNN) for a General Knowledge (GK) Question Answering task using PyTorch.
 
-## 📓 Notebook
+##  Repository Structure
+
+```text
+RNN-From-Scratch-GK-QnA/
+│
+├── data/
+│   ├── README.md
+│   └── gk_qna_dataset.csv
+│
+├── docs/
+│   └── Project documentation and architecture PDFs
+│
+├── notebooks/
+│   ├── README.md
+│   └── RNN-From-Scratch-GK-QnA.ipynb
+│
+├── .gitignore
+├── LICENSE
+└── requirements.txt
+```
+
+##  Notebook
 
 | Notebook | Description |
 |---|---|
@@ -12,9 +33,7 @@ This directory contains the Jupyter Notebook implementation of a simple Recurren
 
 The main objective is to understand how a Recurrent Neural Network works with text data and how to build a basic question-answering model using PyTorch.
 
-The notebook covers the complete workflow, from text preprocessing to model training and prediction.
-
-## Implementation Steps
+##  Implementation Steps
 
 1. **Data Loading** – Load the GK question-answer dataset using Pandas.
 2. **Text Tokenization** – Convert text into tokens using Python Regular Expressions.
@@ -54,9 +73,7 @@ The model consists of three main components:
 
 The dataset contains General Knowledge questions and their corresponding answers.
 
-Dataset location in this repository:
-
-`data/gk_qna_dataset.csv`
+Dataset location: `data/gk_qna_dataset.csv`
 
 ##  Learning Outcomes
 
